@@ -66,7 +66,11 @@ namespace ExerciseClasses
         public static int[] SortAndFilter(int[] a)
         {
             int[] arr = a;
-            List<int> res = new List<int>();
+            return Filter(Sort(arr));
+        }
+
+        public static int[] Sort(int[] arr)
+        {
             for (int i = 1; i < arr.Length; i++)
             {
                 for (int j = i; j > 0 && arr[j - 1] > arr[j]; j--)
@@ -76,7 +80,12 @@ namespace ExerciseClasses
                     arr[j] = tmp;
                 }
             }
+            return arr;
+        }
 
+        public static int[] Filter(int[] arr)
+        {
+            List<int> res = new List<int>();
             for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] >= 0)
@@ -85,7 +94,6 @@ namespace ExerciseClasses
                     if (!res.Contains(arr[i]))
                     res.Add(arr[i]);
             }
-
             return res.ToArray();
         }
     }

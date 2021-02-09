@@ -5,20 +5,33 @@ namespace StringFormatterTest
     [TestClass]
     public class UnitTest1
     {
+        public string expected = "MYFILE.TMP";
+
         [TestMethod]
-        public void StringFormatterTest()
+        public void TestWithExt()
         {
             // arrange
-            string pathWithExt = @"C:\User\Desktop\MyFile.txt", pathNoExt = @"C:\User\Desktop\MyFile";
-            string expected_1 = "MYFILE.TMP", expected_2 = "MYFILE.TMP";
-
+            string pathWithExt = @"C:\User\Desktop\MyFile.txt";
+            
             // act
-            string actual_1 = ExerciseClasses.StringFormatter.ShortFileString(pathWithExt);
-            string actual_2 = ExerciseClasses.StringFormatter.ShortFileString(pathNoExt);
+            string actual = ExerciseClasses.StringFormatter.ShortFileString(pathWithExt);       
 
             // assert
-            Assert.AreEqual(expected_1, actual_1);
-            Assert.AreEqual(expected_2, actual_2);
+            Assert.AreEqual(expected, actual);      
         }
+
+        [TestMethod]
+        public void TestWithoutExt()
+        {
+            // arrange
+            string pathNoExt = @"C:\User\Desktop\MyFile";
+
+            // act
+            string actual = ExerciseClasses.StringFormatter.ShortFileString(pathNoExt);
+            // asert
+
+            Assert.AreEqual(expected, actual);
+        }
+
     }
 }
