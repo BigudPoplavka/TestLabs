@@ -1,0 +1,9 @@
+E:\3kurs\Второй семестр 3 курса\Тестирование\Лабораторная работа 3\Exer1\Exer1\bin\Debug\Exer1.exe.config
+E:\3kurs\Второй семестр 3 курса\Тестирование\Лабораторная работа 3\Exer1\Exer1\bin\Debug\Exer1.exe
+E:\3kurs\Второй семестр 3 курса\Тестирование\Лабораторная работа 3\Exer1\Exer1\bin\Debug\Exer1.pdb
+E:\3kurs\Второй семестр 3 курса\Тестирование\Лабораторная работа 3\Exer1\Exer1\obj\Debug\Exer1.csprojAssemblyReference.cache
+E:\3kurs\Второй семестр 3 курса\Тестирование\Лабораторная работа 3\Exer1\Exer1\obj\Debug\Exer1.Form1.resources
+E:\3kurs\Второй семестр 3 курса\Тестирование\Лабораторная работа 3\Exer1\Exer1\obj\Debug\Exer1.Properties.Resources.resources
+E:\3kurs\Второй семестр 3 курса\Тестирование\Лабораторная работа 3\Exer1\Exer1\obj\Debug\Exer1.csproj.GenerateResource.cache
+E:\3kurs\Второй семестр 3 курса\Тестирование\Лабораторная работа 3\Exer1\Exer1\obj\Debug\Exer1.exe
+E:\3kurs\Второй семестр 3 курса\Тестирование\Лабораторная работа 3\Exer1\Exer1\obj\Debug\Exer1.pdb

@@ -1,0 +1,253 @@
+{
+  "id": "6cbfaa1f-ebb2-408c-a18f-287b0f098f9d",
+  "version": "2.0",
+  "name": "TestLab3",
+  "url": "http://127.0.0.1:8000/",
+  "tests": [{
+    "id": "0d9d7036-ec91-443f-a908-43b4e626d0ed",
+    "name": "test1",
+    "commands": [{
+      "id": "e0dee06f-4dee-415a-a998-dda153ad1dc6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.ml-4:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/register']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3902793e-5cd7-4c87-b9f8-1d6ed3b39ef6",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "bogdanpavl2000@mail.ru"
+    }, {
+      "id": "8542a0f8-7f15-4666-8a16-ef1c85f850bd",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "15bf337b-6be3-48f0-9d09-ddd7059f6359",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Богдан"
+    }, {
+      "id": "5af1d7ad-ba8f-40de-b767-135443a3b615",
+      "comment": "",
+      "command": "type",
+      "target": "name=second_name",
+      "targets": [
+        ["name=second_name", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='second_name']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Павленко"
+    }, {
+      "id": "df85efea-bcf6-4c48-bf20-94dd4523cd1f",
+      "comment": "",
+      "command": "type",
+      "target": "name=father_name",
+      "targets": [
+        ["name=father_name", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='father_name']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Викторович"
+    }, {
+      "id": "c905c47b-1adf-4ec9-9604-052d57696c47",
+      "comment": "",
+      "command": "click",
+      "target": "name=password_confirmation",
+      "targets": [
+        ["name=password_confirmation", "name"],
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password_confirmation']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4da96e66-3710-44e5-9e54-7ed70f36811a",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a8f42e5-f183-43d2-ad1a-a64597266a48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-2:nth-child(3)",
+      "targets": [
+        ["css=.col-md-2:nth-child(3)", "css:finder"],
+        ["xpath=//div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43331481-ce42-4135-9d9e-549e7a4dc9ed",
+      "comment": "",
+      "command": "click",
+      "target": "name=password_confirmation",
+      "targets": [
+        ["name=password_confirmation", "name"],
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password_confirmation']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4992a13-adc6-44c4-82c6-5d8b4c0e0e06",
+      "comment": "",
+      "command": "type",
+      "target": "name=password_confirmation",
+      "targets": [
+        ["name=password_confirmation", "name"],
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password_confirmation']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "d0178076-275e-4876-b5bb-630a7eb8c013",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5742448-dbd4-463f-9968-60f975bae6dd",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "9a27cdab-e24b-44ab-b384-87ebd334b3c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close > span",
+      "targets": [
+        ["css=.close > span", "css:finder"],
+        ["xpath=//div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcd58a0a-496b-4654-a1e6-5d1bbf18f4d5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66ec5d75-cd39-4d02-a338-025f0857f579",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1102x594",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b07f3abe-7a74-4490-981d-8a7107738650",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "unit testing"
+    }, {
+      "id": "09c043b9-8dd4-4d8f-ade7-a9cbab0b4087",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "94de0e8e-23a0-4855-bd53-703aed51fbf2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(1) > div:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(1) > div:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[2]/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Unit testing - Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55833c82-9b5b-43eb-b31e-ff5a1551235d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Русский",
+      "targets": [
+        ["linkText=Русский", "linkText"],
+        ["css=.interwiki-ru > .interlanguage-link-target", "css:finder"],
+        ["xpath=//a[contains(text(),'Русский')]", "xpath:link"],
+        ["xpath=//nav[@id='p-lang']/div/ul/li[22]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5')]", "xpath:href"],
+        ["xpath=//li[22]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Русский')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "85ec648a-3f0f-4099-b0fd-f5a93dd4f502",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0d9d7036-ec91-443f-a908-43b4e626d0ed"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
